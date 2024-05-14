@@ -88,7 +88,8 @@ def main_menu():
         print("\nMain Menu:")
         print("1. Add a book")
         print("2. Show all books")
-        print("3. Exit")
+        print("3. Display total number of the pages in the library")
+        print("4. Exit")
 
         choice = input("Enter your choice: ")
 
@@ -97,6 +98,8 @@ def main_menu():
         elif choice == "2":
             show_all_books()
         elif choice == "3":
+            show_all_pages()
+        elif choice == "4":
             print("Exiting...")
             break
         else:
@@ -150,7 +153,21 @@ def show_all_books():
             "rating": float(rating),
             "pages": int(pages)
         })
+
+def show_all_pages():
+    total_pages = 0
+    with open("library.txt", "r") as f:
+        books = f.readlines()
         
+        for book in books:
+          title, author, year, rating, pages = book.strip().split(", ")
+          total_pages += int(pages)
+
+    print("Total pages from all books:", total_pages)
+    return total_pages
+
+   
+            
 
 
 ### Step 3 - if __name__ == "__main__":

@@ -3,3 +3,4 @@ Meter, Alex Lord, 2001, 3.3, 999
 12 Rules for Life, Jordan Peterson, 2012, 4.8, 344
 Deep Work, Cal Newport, 2016, 4.7, 257
 Of Boys and Men, Richard Reeves, 2022, 4.1, 280
+Idiot, Fedor Dostoevskiy, 1869, 4.8, 1296
