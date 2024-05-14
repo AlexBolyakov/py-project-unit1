@@ -154,6 +154,23 @@ def show_all_books():
             "pages": int(pages)
         })
 
+
+
+   
+            
+
+
+### Step 3 - if __name__ == "__main__":
+
+## Wrap your main menu function call in an "if __name__ == '__main__':" statement to ensure it doesn't accidentally run if this file is imported as a module elsewhere.
+
+# Code this at the bottom of the script
+
+# if __name__ == "__main__":
+#     main_menu()
+
+### Step 4 - Expand and refactor
+
 def show_all_pages():
     total_pages = 0
     with open("library.txt", "r") as f:
@@ -166,20 +183,8 @@ def show_all_pages():
     print("Total pages from all books:", total_pages)
     return total_pages
 
-   
-            
-
-
-### Step 3 - if __name__ == "__main__":
-
-## Wrap your main menu function call in an "if __name__ == '__main__':" statement to ensure it doesn't accidentally run if this file is imported as a module elsewhere.
-
-# Code this at the bottom of the script
-
 if __name__ == "__main__":
     main_menu()
-
-### Step 4 - Expand and refactor
 
 ## Now follow the instructions in this final step. Expand your project. Clean up the code. Make your application functional. Great job getting your first Python application finished!
 
