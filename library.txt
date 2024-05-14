@@ -1,0 +1,4 @@
+12, Me, 1982, 3.2, 123
+Meter, Alex Lord, 2001, 3.3, 999
+12 Rules for Life, Jordan Peterson, 2012, 4.8, 344
+Deep Work, Cal Newport, 2016, 4.7, 257
