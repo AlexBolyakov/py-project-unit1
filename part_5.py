@@ -86,10 +86,10 @@ def main_menu():
     
     while True:
         print("\nMain Menu:")
-        print("1. Add a book")
+        print("\n1. Add a book")
         print("2. Show all books")
         print("3. Display total number of the pages in the library")
-        print("4. Exit")
+        print("4. Exit\n")
 
         choice = input("Enter your choice: ")
 
