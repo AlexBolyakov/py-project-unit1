@@ -151,7 +151,7 @@ def show_all_books():
             "pages": int(pages)
         })
         
-main_menu()
+
 
 ### Step 3 - if __name__ == "__main__":
 
@@ -159,7 +159,8 @@ main_menu()
 
 # Code this at the bottom of the script
 
-
+if __name__ == "__main__":
+    main_menu()
 
 ### Step 4 - Expand and refactor
 
